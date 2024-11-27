@@ -1,0 +1,51 @@
+/* Page Background */
+body {
+    background-color: #F8F9FA; /* Soft gray background for the entire page */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container Styling */
+  .home-container {
+    border: 3px solid #2C3E50; /* Slightly thicker border for a bold outline */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh; /* Increase height for better spacing */
+    width: 60%; /* Ideal width for focus */
+    margin: 5vh auto; /* Centering container with vertical margin */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    background-color: #FFFFFF; /* Maintaining a clean background */
+    border-radius: 15px; /* Rounded corners for a smoother look */
+  }
+  
+  /* Button Styling */
+  .home-button {
+    background-color: #ECF0F1; /* Light grey background */
+    color: #34495E; /* Dark blue for text to add contrast */
+    padding: 20px 40px; /* Generous padding for a touch-friendly interface */
+    width: 100%; /* Full width within container */
+    text-align: center;
+    font-size: 20px; /* Larger text for better readability */
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transitions for interaction */
+    border-radius: 10px; /* Matching rounded corners */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    outline: none; /* Removing outline for aesthetics */
+  }
+  
+  .home-button:hover, .home-button:focus {
+    background-color: #BDC3C7; /* Change background on hover/focus */
+    transform: translateY(-3px); /* Slight raise effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow for 'pop' effect */
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .home-button {
+      width: 80%; /* Reducing button width on larger screens for better aesthetics */
+    }
+  }
+  
